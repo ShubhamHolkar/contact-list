@@ -9,7 +9,9 @@ As simple as > register > verify account > login > Add/Update/Delete contacts
 # Directory Layout
 
 ├── backend # Backend src [ Nodejs, express ]
+
 ├── frontend # Frontend src [Reactjs, typescript]
+
 └── README.md
 
 ## Running instructions
