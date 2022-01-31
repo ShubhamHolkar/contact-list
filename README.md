@@ -19,7 +19,7 @@ As simple as > register > verify account > login > Add/Update/Delete contacts
 1. clone repository
 2. `npm install` // node packages
 3. `cd frontend`
-4. `npm install` & `cd ../`. // react packages
+4. `npm install` & `cd ../` // react packages
 5. create .env file with variables
 6. `npm run startlocal`
 7. open http://localhost:3000
