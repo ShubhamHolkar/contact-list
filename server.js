@@ -5,20 +5,13 @@
  */
 
 import express from "express";
-import path from "path";
 import bodyParser from "body-parser";
-import dotenv from "dotenv";
 import verifyToken from "./backend/config/verify-token.js";
 import userRoutes from "./backend/routes/userRoute.js";
 import contactRoutes from "./backend/routes/contactRoute.js";
 
 // const userRoutes = require('./backend/routes/userRoute.js');
 
-/**
- * dotenv config
- */
-
-dotenv.config();
 /**
  * App Variables
  */
