@@ -52,10 +52,10 @@ export default function RegisterPage() {
           <div className="text-center"></div>
           <form onSubmit={handleSubmit(onSubmit)}>
             <FormGroup row>
-              <Label className="text-start" for="fullName" size="lg" sm={2}>
+              <Label className="text-start" for="fullName" size="lg" sm={3}>
                 Full Name <span className="text-danger">*</span>
               </Label>
-              <Col sm={10}>
+              <Col sm={9}>
                 <Controller
                   control={control}
                   name="fullName"
@@ -73,10 +73,10 @@ export default function RegisterPage() {
               </Col>
             </FormGroup>
             <FormGroup row>
-              <Label className="text-start" for="email" size="lg" sm={2}>
+              <Label className="text-start" for="email" size="lg" sm={3}>
                 Email<span className="text-danger">*</span>
               </Label>
-              <Col sm={10}>
+              <Col sm={9}>
                 <Controller
                   control={control}
                   name="email"
@@ -99,10 +99,10 @@ export default function RegisterPage() {
               </Col>
             </FormGroup>
             <FormGroup row>
-              <Label className="text-start" for="password" size="lg" sm={2}>
+              <Label className="text-start" for="password" size="lg" sm={3}>
                 Password<span className="text-danger">*</span>
               </Label>
-              <Col sm={10}>
+              <Col sm={9}>
                 <Controller
                   control={control}
                   rules={{ required: true }}

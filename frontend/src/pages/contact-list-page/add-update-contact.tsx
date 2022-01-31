@@ -126,7 +126,9 @@ export default function AddUpdateContact(props: any) {
   return (
     <>
       <div className="d-flex justify-content-between mb-2">
-        <h3>Add New Contact</h3>
+        <h3>
+          {addUpdateFormMode === "ADD" ? "Add New Contact" : "Edit Contact"}
+        </h3>
       </div>
       <form
         onSubmit={handleSubmit(onSubmit)}

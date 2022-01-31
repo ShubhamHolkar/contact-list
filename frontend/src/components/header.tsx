@@ -17,7 +17,7 @@ export default function Header(props: props) {
     <Row className=" justify-content-center bg-dark">
       <Col className="mt-1">
         <h2
-          className="display-3 text-start  text-light "
+          className="display-4 text-start  text-light "
           style={{ marginLeft: "7%" }}
         >
           Simply Contacts
